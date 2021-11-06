@@ -17,13 +17,16 @@ public class Bruch {
 
     public double toDecimal() {
         // TODO: Die Methode soll den Dezimalwert zum Bruch retournieren
-        return 0;
+        double decimal = numerator / denominator;
+        return decimal;
     }
 
     public String print() {
         // TODO: Die Methode soll den Bruch als Text retournieren z.B.: "5 / 7"
-        return null;
+        String text = numerator + " / " + denominator;
+        return text;
     }
+
 
     public Bruch multiplicate(Bruch b2) {
         /* TODO:
